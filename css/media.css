@@ -1,0 +1,50 @@
+@media screen  and (max-width:991px){
+    .navbar-nav{
+        background-color: white;
+    }
+    .nav-link{
+        color: black !important;
+        text-align: center;
+    }
+    .navbar-nav{
+        margin-top: 20px ;
+    } 
+    .hero-img{
+        margin-bottom: 50px !important;
+    }
+    .about .col-md-5{
+        margin-bottom: 50px;
+    }
+    .carousel-item p{
+        width: 90% !important;
+    }
+   
+ } 
+ @media  screen and (max-width:770px) {
+    
+    .sp-home{
+        font-weight: 100 !important;
+        font-size: 20px !important;
+        width: 120% !important;
+    }
+    #demo {
+        font-weight: 100 !important;
+        font-size: 30px !important;
+        padding: 0;
+        margin: 0;
+    
+    }
+    .home-ani:nth-child(2)::after{
+        /* left: 55px !important;
+        left: 150px !important; 
+        right: unset !important; */
+        /* right: 75px !important; */
+    }
+    
+}
+@media screen and (max-width:270px){
+    #demo{
+        width: 40% !important;
+    }
+    
+}
